@@ -66,7 +66,7 @@ body{
 .intro-1{
     padding-top: 110px;
 }
-h1{
+.intro-2 h1{
     font-family: Taviraj;
     font-style: normal;
     font-weight: normal;
@@ -76,7 +76,7 @@ h1{
     color: #333333;
     position: relative;
 }
-h1::before{
+.intro-2 h1::before{
     position: absolute;
     content: "";
     width: 95px;
@@ -94,7 +94,7 @@ h1::before{
     color: #333333;
     width: 100px;
 }
-h6{
+.intro-2 h6{
     top: 21px;
     margin: 0;
     bottom: 30px;
@@ -107,7 +107,7 @@ h6{
     color: #333333;
     position: relative;
 }
-h6::before{
+.intro-2 h6::before{
     position: absolute;
     content: "";
     width: 74px;
@@ -185,3 +185,63 @@ h6::before{
     padding-top: 6.5px;
 }
 
+
+.display1{
+    margin: 10% 10% 2rem 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 280px;
+    grid-gap: 30px;
+}
+
+.display1-inner{
+    background-color: #FFFFFF;
+    padding-left: 30px;
+    position: relative;
+}
+.display1-inner h1{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #333333;
+}
+.display1-inner p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #777777;
+}
+.display1-inner h6{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 0.03em;
+    color: #333333;
+    position: relative;
+}
+.display1-inner h6::before{
+    position: absolute;
+    content: "";
+    width: 115px;
+    height: 0px;
+    top: 28px;
+    border: 1px solid #000000;
+}
+#glassimg{
+    position: absolute;
+    padding-left: 35%;
+    top: 130px;
+}
+#watch1img{
+    position: absolute;
+    padding-left: 65%;
+    top: 130px;
+}
