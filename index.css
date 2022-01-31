@@ -1,5 +1,6 @@
 body{
     background: #E5E5E5;
+    overflow-x: hidden;
 }
 .navibar{
     font-family: 'Taviraj', serif;
@@ -44,11 +45,15 @@ body{
 
 /* CONTENT */
 
-/* .bgline1{
-    background-image: url('line.png');
-    background-repeat: no-repeat;
-    background-position: 730.73px 166.84px; 
-} */
+.bgline1{
+    position: relative;
+}
+#line1{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 50%;
+}
 
 .intro-b{
     padding: 5% 10% 2rem 10%;
@@ -244,4 +249,652 @@ body{
     position: absolute;
     padding-left: 65%;
     top: 130px;
+}
+
+.monthlyDeals{
+    margin: 10% 10% 2rem 10%;
+}
+
+.monthlyDeals h1{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    position: relative;
+}
+.monthlyDeals h1::before{
+    position: absolute;
+    content: "";
+    width: 128px;
+    height: 0px;
+    top: 58px;
+    border: 1px solid #000000;
+}
+.deals{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 380px;
+    grid-gap: 25px;
+    padding-top: 3%;
+}
+.deals-inner{
+    background-color: #FFFFFF;
+    padding-left: 40px;
+}
+.deals-inner span{
+    position: relative;
+}
+#img{
+    position: absolute;
+    top: -40px;   
+}
+.deals-inner #inner1{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #333333;
+    position: absolute;
+    margin-top: 200px;
+    margin-right: 10%;
+}
+.deals-inner #inner1i{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 24px;
+    color: #333333;
+    position: absolute;
+    margin-top: 200px;
+    margin-right: 10%;
+}
+.deals-inner #inner2{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #777777;
+    position: absolute;
+    margin-top:240px ;
+}
+.deals-inner #inner2i{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #777777;
+    position: absolute;
+    margin-top:270px ;
+}
+.price{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #777777;
+    margin-top: 275px;
+    margin-bottom: 0;
+    position: relative;
+}
+.price::before{
+    position: absolute;
+    content: "";
+    width: 104px;
+    height: 0px;
+    top: 12px;
+    border: 1px solid #D93F3F;
+}
+.price-i{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #777777;
+    margin-top: 305px;
+    margin-bottom: 0;
+    position: relative;
+}
+.price-i::before{
+    position: absolute;
+    content: "";
+    width: 104px;
+    height: 0px;
+    top: 12px;
+    border: 1px solid #D93F3F;
+}
+.offerprice{
+    font-style: normal;
+    font-weight: 300;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 24px;
+    color: #333333;
+    margin: 0;
+}
+
+.recentNews{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 2rem;
+
+}
+.recentNews h2{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    position: relative;
+}
+.recentNews h2::before{
+    position: absolute;
+    content: "";
+    width: 128px;
+    height: 0px;
+    top: 55px;
+    border: 1px solid #000000;
+}
+.inner1 h6{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+    color: #777777;
+    margin: 0;
+    margin-top: 150px;
+}
+.inner1 h1{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.inner1 button{
+    width: 160px;
+    height: 58px;
+    border: 2px solid #D84727;
+    background-color:#E5E5E5;
+    color: #D84727;
+}
+.inner2{
+    position: relative;
+}
+.inner2-1{
+    position: absolute;
+    background-color:#F1DDC9;
+    width: 640px;
+    height: 458px;
+    left: 53.2%;
+    top: -450px;
+    z-index: -2;
+}
+.inner2 img{
+    position: absolute;
+    width: 640px;
+    height: 458px;
+    left: 33%;
+    top: -350px;
+}
+.inner2 #line2{
+    position: absolute;
+    left: 40%;
+    width: 60%;
+    top: -510px;
+    transform: rotate(10deg);
+    z-index: -1;
+}
+.inner2 #line3-1{
+    position: absolute;
+    left: 70%;
+    width: 60%;
+    top: -100px;
+    z-index: -1;
+}
+.inner2 #line3-2{
+    position: absolute;
+    left: 69%;
+    width: 60%;
+    top: -29px;
+    z-index: -1;
+}
+.offer{
+    padding:  20% 10% 2rem 10%;
+}
+.offerseries{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    
+}
+.name h1{
+    margin-bottom: 80px;
+    position: relative;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+.name h1::before{
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 0px;
+    top: 60px;
+    border: 1px solid #000000;
+}
+
+.mapleseries{
+    display: grid;
+    grid-template-columns: 131px 1fr;
+    row-gap: 100px;
+}
+.mapleseries img{
+    grid-row: 1/3;
+    grid-column: 1;
+    padding-left: 25%;
+    padding-top: 10%;
+}
+.mapleseries span{
+    background-color:#F1DDC9;
+    width: 131px;
+    height: 131px;
+    margin-top: 30px;
+}
+.mapleseries h4{
+    grid-row: 1;
+    grid-column: 2;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    margin: 0;
+    margin-top: 35px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+.mapleseries h3{
+    grid-row: 1;
+    grid-column: 2;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #222222;
+    margin: 0;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+#series1{
+    margin-top: 95px;
+}
+
+.ebonyseries{
+    display: grid;
+    grid-template-columns: 131px 1fr;
+    row-gap: 100px;
+}
+.ebonyseries img{
+    grid-row: 1/3;
+    grid-column: 1;
+    padding-left: 25%;
+    padding-top: 10%;
+}
+.ebonyseries span{
+    background-color:#F1DDC9;
+    width: 131px;
+    height: 131px;
+    margin-top: 30px;
+}
+.ebonyseries h4{
+    grid-row: 1;
+    grid-column: 2;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    margin: 0;
+    margin-top: 35px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+.ebonyseries h6{
+    grid-row: 1;
+    grid-column: 2;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #777777;
+    margin: 0;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+#series2{
+    margin-top: 95px;
+}
+.ebonyseries h3{
+    grid-row: 1;
+    grid-column: 2;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #222222;
+    margin: 0;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.featured{
+    display: grid;
+    grid-template-columns: 131px 1fr;
+    row-gap: 100px;
+}
+.featured img{
+    grid-row: 1/3;
+    grid-column: 1;
+    padding-left: 25%;
+    padding-top: 10%;
+}
+.featured span{
+    background-color:#F1DDC9;
+    width: 131px;
+    height: 131px;
+    margin-top: 30px;
+}
+.featured h4{
+    grid-row: 1;
+    grid-column: 2;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    margin: 0;
+    margin-top: 35px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+.featured h3{
+    grid-row: 1;
+    grid-column: 2;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #222222;
+    margin: 0;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+#series3{
+    padding-left: 30%;
+}
+#series4{
+    padding-top: 30%;
+    padding-left: 10%;
+}
+
+.offer1-button{
+    text-align: center;
+    margin-top: 60px;
+}
+#offer-b1{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    color: #D84727;
+    width: 272px;
+    height: 66px;
+    border: 1px solid #D84727;
+    position: relative;
+    background-color: #E5E5E5;
+}
+#offer-b1::before{
+    position: absolute;
+    content: "";
+    width: 391px;
+    height: 0px;
+    border: 0.3px solid #999999;
+    left: -173%;
+    top: 50%; 
+}
+#offer-b1::after{
+    position: absolute;
+    content: "";
+    width: 391px;
+    height: 0px;
+    border: 0.3px solid #999999;
+    left: 123%;
+    top: 50%; 
+}
+
+.testimonials{
+    padding: 10% 10% 2rem 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.testimonials .inner-1{
+    position: relative;
+}
+
+.test-inner-1 #testinner1{
+    background-color:#F1DDC9;
+    position: absolute;
+    width: 515px;
+    height: 300px;
+    z-index: -1;
+    left:0;
+}
+.test-inner-1 #w1{
+    position: absolute;
+    width: 511px;
+    height: 321px;
+    padding-top: 60px;
+}
+
+.test-inner-1 #arrow1-inner{
+    position: absolute;
+    padding-top: 27%;
+}
+.test-inner-1 #line4{
+    position: absolute;
+    left: -10%;
+    top: 3573.660px;
+    transform: rotate(5deg);
+    z-index: -1;
+}
+.test-inner-2 h1{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    margin: 0;
+    position: relative;
+}
+.test-inner-2 h1::before{
+    position: absolute;
+    content: "";
+    border: 1px solid #000000;
+    width: 128px;
+    height: 0px;
+    top: 60px;
+}
+
+.test-inner-2 p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #333333;
+    padding-top:40px ;
+    padding-right: 20%;
+}
+
+.test-inner-2 h3{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    color: #333333;
+    margin: 0;
+    padding-top: 20px;
+    position: relative;
+}
+.test-inner-2 small{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    color: #777777;
+    position: absolute;
+}
+
+.instagram{
+    padding: 15% 10% 2rem 10%;   
+}
+.instagram h1{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    position: relative;
+}
+.instagram h1::before{
+    position: absolute;
+    content: "";
+    width: 128px;
+    height: 0px;
+    border: 1px solid #000000;
+    top: 48px;
+}
+.instagram img{
+    width: 235px;
+    height: 222px;
+    padding-top: 30px;
+}
+
+.payment{
+    margin: 0;
+    padding-top: 5%;
+    position: relative;
+}
+.payment .paybg{
+    position: absolute;
+    background-color: #DA5E42;
+    left: -8px;
+    right: -8px;
+}
+.payinner{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 1rem 10% 1rem 10%;
+    text-align: center;
+}
+
+.contact{
+    margin: 0;
+    padding-top: 15.8%;
+    position: relative;
+}
+.contact .contactbg{
+    position: absolute;
+    background-color:#D84727;
+    background-color: #D84727;
+    padding: 5% 10% 5% 10%;
+    left: -8px;
+    right:-8px;
+}
+.contactinner{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+.contactitem .contactiteminner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+}
+.contactitem h2{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+    align-self: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    position: relative;
+}
+.contactitem h2::before{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 0px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    top: 40px;
+}
+.contactitem h5{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.contactitem h6{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 5px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.contactitem #name{
+    padding-bottom: 25px;
+}
+.contactitem #name1{
+    padding-bottom: 38px;
+}
+#contactimg{
+    padding-top: 15px;
 }
