@@ -487,6 +487,11 @@ body{
     border: 2px solid #D84727;
     background-color:#E5E5E5;
     color: #D84727;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 .inner2{
     position: relative;
