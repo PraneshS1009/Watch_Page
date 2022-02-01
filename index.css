@@ -231,6 +231,7 @@ body{
     letter-spacing: 0.03em;
     color: #333333;
     position: relative;
+    
 }
 .display1-inner h6::before{
     position: absolute;
@@ -275,22 +276,76 @@ body{
 .deals{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 380px;
-    grid-gap: 25px;
-    padding-top: 3%;
+    grid-template-rows: 390px;
+    column-gap: 25px;
+    padding-top: 7%;
+}
+.deals-inner:hover{
+    grid-template-rows: 450px;   
 }
 .deals-inner{
     background-color: #FFFFFF;
+    
+    display: grid;
+    
+}
+.deals-inner:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.50);
+}
+.deals-inner:hover .buttonhover{
+    visibility: visible;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.50);
+}
+.buttonhover{
+    
+    background-color: #FFFFFF;
+    visibility: hidden;
+    margin-top: -80px;
+    
+}
+.buttonhover #loveb{
+    position: absolute;
     padding-left: 40px;
+}
+.buttonhover #loveb-i{
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.buttonhover #addtob{
+    position: absolute;
+    padding-left: 90px;
+}
+.buttonhover #addtob-i{
+    position: absolute;
+    padding-left: 90px;
+    padding-top: 15px;
+}
+.buttonhover #addto{
+    width: 158px;
+    height: 39px;
+    border: none;
+    background-color:  #D84727;
+    cursor: pointer;
+}
+.buttonhover #love{
+    width: 39px;
+    height: 39px;
+    border: 1px solid #D84727;
+    background-color: white;
+    cursor: pointer;
 }
 .deals-inner span{
     position: relative;
+    padding-left: 40px;
 }
 #img{
     position: absolute;
     top: -40px;   
+
 }
 .deals-inner #inner1{
+    padding-left: 40px;
     font-family: Taviraj;
     font-style: normal;
     font-weight: 500;
@@ -301,6 +356,7 @@ body{
     margin-right: 10%;
 }
 .deals-inner #inner1i{
+    padding-left: 40px;
     font-family: Taviraj;
     font-style: normal;
     font-weight: 500;
@@ -312,6 +368,7 @@ body{
     margin-right: 10%;
 }
 .deals-inner #inner2{
+    padding-left: 40px;
     font-family: Taviraj;
     font-style: normal;
     font-weight: normal;
@@ -321,6 +378,7 @@ body{
     margin-top:240px ;
 }
 .deals-inner #inner2i{
+    padding-left: 40px;
     font-family: Taviraj;
     font-style: normal;
     font-weight: normal;
@@ -330,24 +388,19 @@ body{
     margin-top:270px ;
 }
 .price{
+    padding-left: 40px;
     font-family: Taviraj;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     color: #777777;
     margin-top: 275px;
-    margin-bottom: 0;
-    position: relative;
-}
-.price::before{
-    position: absolute;
-    content: "";
-    width: 104px;
-    height: 0px;
-    top: 12px;
-    border: 1px solid #D93F3F;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    position:absolute;
 }
 .price-i{
+    padding-left: 40px;
     font-family: Taviraj;
     font-style: normal;
     font-weight: normal;
@@ -355,17 +408,13 @@ body{
     color: #777777;
     margin-top: 305px;
     margin-bottom: 0;
-    position: relative;
-}
-.price-i::before{
     position: absolute;
-    content: "";
-    width: 104px;
-    height: 0px;
-    top: 12px;
-    border: 1px solid #D93F3F;
+    text-decoration: line-through;
+    text-decoration-color: red;
 }
 .offerprice{
+    padding-left: 40px;
+    position: absolute;
     font-style: normal;
     font-weight: 300;
     font-family: Taviraj;
@@ -373,9 +422,20 @@ body{
     font-weight:normal;
     font-size: 24px;
     color: #333333;
-    margin: 0;
+    margin-top:300px;
 }
-
+.offerprice-i{
+    padding-left: 40px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 300;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 24px;
+    color: #333333;
+    margin-top:330px;
+}
 .recentNews{
     margin-top: 10%;
     margin-left: 10%;
@@ -451,8 +511,8 @@ body{
     position: absolute;
     left: 40%;
     width: 60%;
-    top: -510px;
-    transform: rotate(10deg);
+    top: -550px;
+    transform: rotate(5deg);
     z-index: -1;
 }
 .inner2 #line3-1{
@@ -727,7 +787,7 @@ body{
 .test-inner-1 #line4{
     position: absolute;
     left: -10%;
-    top: 3573.660px;
+    top: 3633.660px;
     transform: rotate(5deg);
     z-index: -1;
 }
@@ -847,8 +907,8 @@ body{
 }
 .contactitem .contactiteminner{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1px;
+    grid-template-columns: 100px 150px;
+    column-gap: 10px;
 }
 .contactitem h2{
     font-family: Taviraj;
