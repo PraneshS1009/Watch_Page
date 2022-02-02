@@ -14,7 +14,10 @@ body{
     margin-right: auto;
     width: 178px;
     height: 22px;
-
+}
+.navibar-content1 img{
+    width: 178px;
+    height: 22px;
 }
 .navibar-inner1{
     display: flex;
@@ -70,6 +73,10 @@ body{
 }
 .intro-1{
     padding-top: 110px;
+}
+.intro-1 img{
+    width: 325px;
+    height: 467px;
 }
 .intro-2 h1{
     font-family: Taviraj;
@@ -245,11 +252,15 @@ body{
     position: absolute;
     padding-left: 35%;
     top: 130px;
+    width: 330px;
+    height: 143px;
 }
 #watch1img{
     position: absolute;
     padding-left: 65%;
     top: 130px;
+    width: 155px;
+    height: 152px;
 }
 
 .monthlyDeals{
@@ -337,9 +348,9 @@ body{
 .buttonhover #love{
     width: 39px;
     height: 39px;
+    cursor: pointer;
     border: 1px solid #D84727;
     background-color: white;
-    cursor: pointer;
 }
 .deals-inner span{
     position: relative;
@@ -348,6 +359,8 @@ body{
 #img{
     position: absolute;
     top: -40px;   
+    width: 201px;
+    height: 221px;
 
 }
 .deals-inner #inner1{
@@ -517,6 +530,8 @@ body{
     height: 458px;
     left: 33%;
     top: -350px;
+    width: 627.54px;
+    height: 506px;
 }
 .inner2 #line2{
     position: absolute;
@@ -577,6 +592,8 @@ body{
     grid-column: 1;
     padding-left: 25%;
     padding-top: 10%;
+    width: 68.07px;
+    height: 100px;
 }
 .mapleseries span{
     background-color:#F1DDC9;
@@ -626,6 +643,8 @@ body{
     grid-column: 1;
     padding-left: 25%;
     padding-top: 10%;
+    width: 65.16px;
+    height: 100px;
 }
 .ebonyseries span{
     background-color:#F1DDC9;
@@ -687,6 +706,8 @@ body{
     grid-column: 1;
     padding-left: 25%;
     padding-top: 10%;
+    width: 70.49px;
+    height: 100px;
 }
 .featured span{
     background-color:#F1DDC9;
@@ -728,6 +749,8 @@ body{
 #series4{
     padding-top: 30%;
     padding-left: 10%;
+    width: 113px;
+    height: 55px;
 }
 
 .offer1-button{
@@ -965,6 +988,8 @@ body{
 }
 .contactitem #name1{
     padding-bottom: 38px;
+    width: 178px;
+    height: 22px;
 }
 #contactimg{
     padding-top: 15px;
